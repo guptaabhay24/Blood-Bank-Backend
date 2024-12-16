@@ -11,8 +11,7 @@ app.use(cors(
   {
     origin: 'https://blood-bank-frontend-n66p.vercel.app',
     methods: 'GET, POST, PATCH, PUT, DELETE',
-    credentials: true,
-    allowedHeaders: "Content-Type, Authorization, X-Requested-With",
+    credentials: true
   }
 ));
 app.use(express.json());
