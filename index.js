@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(cors(
   {
     origin: 'https://blood-bank-frontend-n66p.vercel.app',
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    methods: 'GET, POST, PATCH, PUT, DELETE',
     credentials: true,
     allowedHeaders: "Content-Type, Authorization, X-Requested-With",
   }
